@@ -1,0 +1,60 @@
+.ChapterTOC_1 > span.WebWorks_Number
+{
+  text-indent: -18pt;
+}
+
+.ChapterTOC_1 > span.WebWorks_Number > *
+{
+  text-indent: 0;
+}
+
+.List_1 > span.WebWorks_Number
+{
+  text-indent: -18pt;
+}
+
+.List_1 > span.WebWorks_Number > *
+{
+  text-indent: 0;
+}
+
+.List_2 > span.WebWorks_Number
+{
+  text-indent: -18pt;
+}
+
+.List_2 > span.WebWorks_Number > *
+{
+  text-indent: 0;
+}
+
+.Numbered_2 > span.WebWorks_Number
+{
+  text-indent: -18pt;
+}
+
+.Numbered_2 > span.WebWorks_Number > *
+{
+  text-indent: 0;
+}
+
+.List_3 > span.WebWorks_Number
+{
+  text-indent: -18pt;
+}
+
+.List_3 > span.WebWorks_Number > *
+{
+  text-indent: 0;
+}
+
+.Numbered_1 > span.WebWorks_Number
+{
+  text-indent: -18pt;
+}
+
+.Numbered_1 > span.WebWorks_Number > *
+{
+  text-indent: 0;
+}
+

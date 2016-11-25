@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseConfiguration dbVendor="MySQL">
+<typeMapping>
+		<jdbcType name="REAL" >
+			<javaType name="FLOAT"  />
+			<javaType name="BIGDECIMAL"  />
+			<javaType name="STRING"  />
+			<javaType name="OBJECT"  />
+		</jdbcType>
+		<jdbcType name="DOUBLE" >
+			<javaType name="DOUBLE"  />
+			<javaType name="BIGDECIMAL"  />
+			<javaType name="STRING"  />
+			<javaType name="OBJECT"  />
+		</jdbcType>
+</typeMapping>
+	<columnTypeMapping>
+		<columnType nativeSqlType="BIGINT" jdbcTypeName="BIGINT" includeColumnSize="false"/>
+		<columnType nativeSqlType="TINYINT" jdbcTypeName="TINYINT" includeColumnSize="false"/>
+		<columnType nativeSqlType="SMALLINT" jdbcTypeName="SMALLINT" includeColumnSize="false"/>
+		<columnType nativeSqlType="MEDIUMINT" jdbcTypeName="INT" includeColumnSize="false"/>
+		<columnType nativeSqlType="INT" jdbcTypeName="INTEGER" includeColumnSize="false"/>
+		<columnType nativeSqlType="FLOAT" jdbcTypeName="FLOAT" includeColumnSize="false"/>
+		<columnType nativeSqlType="DOUBLE" jdbcTypeName="DOUBLE" includeColumnSize="false"/>
+		<columnType nativeSqlType="DECIMAL" jdbcTypeName="DECIMAL"  includePrecision="true"/>
+		<columnType nativeSqlType="CHAR" jdbcTypeName="CHAR"/>
+		<columnType nativeSqlType="VARCHAR" jdbcTypeName="VARCHAR"/>
+		<columnType nativeSqlType="TEXT" jdbcTypeName="LONGVARCHAR" includeColumnSize="false"/>
+		<columnType nativeSqlType="TINYTEXT" jdbcTypeName="VARCHAR" />
+		<columnType nativeSqlType="MEDIUMTEXT" jdbcTypeName="LONGVARCHAR" includeColumnSize="false"/>
+		<columnType nativeSqlType="LONGTEXT" jdbcTypeName="LONGVARCHAR" includeColumnSize="false"/>
+		<columnType nativeSqlType="DATE" jdbcTypeName="DATE" includeColumnSize="false"/>
+		<columnType nativeSqlType="TIME" jdbcTypeName="TIME" includeColumnSize="false"/>
+		<columnType nativeSqlType="TIMESTAMP" jdbcTypeName="TIMESTAMP" includeColumnSize="false"/>
+		<columnType nativeSqlType="DATETIME" jdbcTypeName="TIMESTAMP" includeColumnSize="false"/>
+		<columnType nativeSqlType="YEAR" jdbcTypeName="DATE" includeColumnSize="false"/>
+		<columnType nativeSqlType="TINYBLOB" jdbcTypeName="BLOB" includeColumnSize="false"/>
+		<columnType nativeSqlType="BLOB" jdbcTypeName="BLOB" includeColumnSize="false"/>
+		<columnType nativeSqlType="MEDIUMBLOB" jdbcTypeName="BLOB" includeColumnSize="false"/>
+		<columnType nativeSqlType="LONGBLOB" jdbcTypeName="BLOB" includeColumnSize="false"/>		
+		<columnType nativeSqlType="BINARY" jdbcTypeName="BINARY"/>
+		<columnType nativeSqlType="VARBINARY" jdbcTypeName="VARBINARY"/>
+		<columnType nativeSqlType="ENUM" jdbcTypeName="CHAR"/>
+		<columnType nativeSqlType="SET" jdbcTypeName="CHAR"/>
+		<columnType nativeSqlType="BIT" jdbcTypeName="BOOLEAN" includeColumnSize="false"/>
+	</columnTypeMapping>
+</databaseConfiguration>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseConfiguration dbVendor="SYBASE">
+	<columnTypeMapping>
+		<columnType nativeSqlType="BIGINT" jdbcTypeName="BIGINT" includePrecision="true"/>
+		<columnType nativeSqlType="BIT" jdbcTypeName="BIT" />
+		<columnType nativeSqlType="TINYINT" jdbcTypeName="TINYINT" includePrecision="true"/>
+		<columnType nativeSqlType="SMALLINT" jdbcTypeName="SMALLINT" includePrecision="true"/>
+		<columnType nativeSqlType="INT" jdbcTypeName="INTEGER" includePrecision="true"/>
+		<columnType nativeSqlType="INTEGER" jdbcTypeName="INTEGER" includePrecision="true"/>
+		
+		
+		<columnType nativeSqlType="FLOAT" jdbcTypeName="FLOAT" includeColumnSize="false"/>
+		<columnType nativeSqlType="REAL" jdbcTypeName="REAL" />
+		<columnType nativeSqlType="DOUBLE PRECISION" jdbcTypeName="DOUBLE" />
+		<columnType nativeSqlType="NUMERIC" jdbcTypeName="NUMERIC"  includePrecision="true"/>
+		
+		<columnType nativeSqlType="CHAR" jdbcTypeName="CHAR" includeNullable="true" />
+		<columnType nativeSqlType="CHARACTER" jdbcTypeName="CHAR" includeNullable="true" />
+		<columnType nativeSqlType="VARCHAR" jdbcTypeName="VARCHAR" includeNullable="true"/>
+		<columnType nativeSqlType="LVARCHAR" jdbcTypeName="LONGVARCHAR" includeColumnSize="false" includeNullable="true"/>
+		<columnType nativeSqlType="TIMESTAMP WITH TIME ZONE" jdbcTypeName="CHAR" includeColumnSize="false"/>
+		
+		
+		<columnType nativeSqlType="TIMESTAMP" jdbcTypeName="TIMESTAMP" includeColumnSize="false"/>
+		<columnType nativeSqlType="DATE" jdbcTypeName="DATE" includeColumnSize="false" includeNullable="true"/>
+		<columnType nativeSqlType="TIME" jdbcTypeName="TIME" includeColumnSize="false" includeNullable="true"/>
+		
+		<columnType nativeSqlType="BINARY" jdbcTypeName="BINARY" includeNullable="true"/>
+		<columnType nativeSqlType="VARBINARY" jdbcTypeName="VARBINARY" includeNullable="true"/>
+		<columnType nativeSqlType="LVARBINARY" jdbcTypeName="LONGVARBINARY" includeNullable="true"/>
+		
+		<columnType nativeSqlType="BLOB" jdbcTypeName="LONGVARBINARY" includeColumnSize="false" includeNullable="true"/>
+		<columnType nativeSqlType="CLOB" jdbcTypeName="LONGVARCHAR" includeColumnSize="false" includeNullable="true"/>
+		
+	</columnTypeMapping>
+</databaseConfiguration>
