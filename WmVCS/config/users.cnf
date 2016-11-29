@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="francesco" javaclass="com.wm.util.Values">
+    <value name="vcsName">francesco</value>
+    <value name="vcsPassword">wm.is.admin.vcs.francesco</value>
+  </record>
+</Values>
